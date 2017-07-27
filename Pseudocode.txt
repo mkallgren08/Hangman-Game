@@ -1,0 +1,41 @@
+Psychic Game
+------------------------------------------------------
+
+General Page Layout
+
+ ----------------------------------------------------------------------------
+|                                                                            |
+| GUESS WHAT LETTER OR NUMBER I'M THINKING OF.                               |
+|                                                                            |
+| Your Guesses So Far: (will use a getElementById(***).innerHTML = ***)      |                                      
+|                                                                            |
+| Guesses Left:                                                              |
+|                                                                            |
+| Wins:                                                                      |
+|                                                                            |
+| Losses:                                                                    |
+|                                                                            |
+|                                                                            |
+|                                                                            |
+|                                                                            |
+|                                                                            |
+|                                                                            |
+|                                                                            |
+|                                                                            |
+|                                                                            |
+|                                                                            |
+|                                                                            |
+|                                                                            |
+|                                                                            |
+|                                                                            |
+|                                                                            |
+|                                                                            |
+-----------------------------------------------------------------------------
+
+Notes:
+ - Loss occurs when Guesses Left === 0 
+ - Must restart on own after win or loss
+ - Your Guesses So Far..... print array? List?
+
+HTML
+

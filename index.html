@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Odd Animal Hangman</title>
+	<!-- <link rel = "stylesheet" type = "text/css" href ="./assets/css/reset.css"> -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel = "stylesheet" type = "text/css" href = "./assets/css/style.css">
+</head>
+<body>
+	
+
+	<div class = "container-fluid">
+		<div class = "navbar">
+			<h2> <strong>Welcome to Hangman!</strong></h2>
+		</div>
+	</div>
+	<div class="container">
+		<h2>Here's the animal whose name you need to guess: </h2>
+		<h2><span id = "currentPick"></span></h2>
+
+		<h3>Valid characters are A -> Z and spaces.</h3>
+		<h3>Note: A space is a freebie! It won't make your lives go down if you click the spacebar </h3> 
+
+		<!-- <h2>(or numbers 0 -> 9)</h2> -->
+		
+		<br>
+		<h2>Wins: <span id="winCount">0</span></h2>
+		<h2>Losses: <span id="lossCount">0</span></h2>
+		<br>
+
+		<h2>Number of Guesses Left: <span id= "livesLeft">13</span></h2>
+		<h3>Your Guesses so far: <span id = "guesssoFar"></span></h3>
+	<script src = "./assets/javascript/game.js"></script>
+	</div>
+	
+</body>
+</html>
